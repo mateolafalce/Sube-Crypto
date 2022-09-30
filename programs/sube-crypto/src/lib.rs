@@ -32,8 +32,6 @@ pub mod sube_crypto {
         km: u8,
     ) -> Result<()> {
         require!(km < 6,  Err(ErrorCode::OverdueCredits.into()));
-
-        let _lamports: u64 = 1000000000;
         let from = &mut ctx.accounts.from;
         let to = &mut ctx.accounts.to;
         let transfer = system_instruction::transfer(

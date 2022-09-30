@@ -17,4 +17,3 @@ default = []
 
 [dependencies]
 anchor-lang = "0.25.0"
-proc-macro2 = "1.0.46"

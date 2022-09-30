@@ -1201,7 +1201,6 @@ name = "sube-crypto"
 version = "0.1.0"
 dependencies = [
  "anchor-lang",
- "proc-macro2",
 ]
 
 [[package]]
